@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First HTML Website</title>
+        <!-- Link to css file -->
+        <link rel="stylesheet" href="index.css">
 
+        <!-- Font links -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="nav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Puppy Banner</a></li>
+                <li><a href="">Twitter Clone</a></li>
+            </ul>
+
+        </nav>
+
+        <!-- Banner section-->
+        <section class="banner">
+            <h1 class="drop-shadow">
+                The puppies page
+            </h1>
+            <img 
+            id="small-puppy"
+            src="./Resources/Images/cute-puppy.jpg"
+            alt="Cute puppy"
+            >
+            <p>Because everything's better with a puppy</p>
+        </section>
+
+        <main>
+            <!-- Title -->
+            <h1 id="title" class="bold">
+                Puppies!!!
+            </h1>
+
+            <!-- Content beginning -->
+            <section class="puppy-info">
+                <figure>
+                    <img 
+                    src="https://images.hdqwalls.com/wallpapers/puppy-snout-dog.jpg"
+                    alt="Puppy"
+                    width="960px"
+                    height="540px"
+                    >
+                </figure>
+
+                <article>
+                    <p>Puppies are young dogs that are typically playful and full of energy. 
+                        They are known for their cute appearance, with soft fur, short legs, and big, floppy ears. 
+                        As they grow and develop, they need proper care, including nutritious food, plenty of exercise, and socialization with people and other animals. 
+                        Training and obedience lessons are also important for puppies, as they help them learn good behavior and develop into well-behaved adult dogs. 
+                        Overall, puppies bring joy and love to their owners, and they make great companions for those who are willing to provide them with the care they need.</p>
+                </article>
+
+                <section class="puppy-list">
+                    <h3>
+                        Five types of cute puppies:
+                    </h3>
+                    <ul>
+                        <li>
+                            <div id="labrador-avatar" class="avatar"></div><span>Labrador Retriever</span>
+                        </li>
+                        <li>
+                            <div id="poodle-avatar" class="avatar"></div><span>Poodle</span>
+                        </li>
+                        <li>
+                            <div id="golden-avatar" class="avatar"></div><span>Golden Retriever</span>
+                        </li>
+                        <li>
+                            <div id="bulldog-avatar" class="avatar"></div><span>Bulldog</span>
+                        </li>
+                        <li>
+                            <div id="shih-avatar" class="avatar"></div><span>Shih Tzu</span>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+
+        </main>
+    </body>
+</html>
