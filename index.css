@@ -89,27 +89,27 @@
 }
 
 #labrador-avatar {
-    background-image: url(../Images/labrador-puppy.jpg);
+    background-image: url(/Images/labrador-puppy.jpg);
     display: inline-block;
 }
 
 #poodle-avatar {
-    background-image: url(../Images/poodle-puppy.jpg);
+    background-image: url(/Images/labrador-puppy.jpg);
     display: inline-block;
 }
 
 #golden-avatar {
-    background-image: url(../Images/golden-retriever-puppy.jpg);
+    background-image: url(/Images/golden-retriever-puppy.jpg);
     display: inline-block;
 }
 
 #bulldog-avatar {
-    background-image: url(../Images/bulldog-puppy-sitting-in-grass.jpg);
+    background-image: url(/Images/bulldog-puppy-sitting-in-grass.jpg);
     display: inline-block;
 }
 
 #shih-avatar {
-    background-image: url(../Images/shih-tzu-dog.jpeg);
+    background-image: url(/Images/shih-tzu-dog.jpeg);
     display: inline-block;
 }
 .bold {
